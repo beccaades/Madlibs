@@ -19,7 +19,11 @@ sentence += "with it - for " + secondTime + ".";
 var thirdNoun = prompt('please enter a noun');
 sentence += " And that's the day I realized that there was this entire " + thirdNoun;
 var emotion = prompt('please enter an emotion');
-sentence += 
-
-behind things, and this incredibly benevolent force that wanted me to know that there was no reason to be afraid, ever. Video's a poor excuse, I know. But it helps me remember - I need to remember. Sometimes, there's so much beauty in the world - I feel like I can't take it, like my heart is just going to cave in."
+sentence += "behind things, and this incredibly benevolent force that wanted me to know that there was no reason to be " + emotion;
+var secondAdjective = prompt('Please type in an adjective');
+sentence += ", ever. Video's a poor excuse, I know. But it helps me remember - I need to remember. Sometimes, there's so much " + secondAdjective;
+var bodyPart = prompt('please enter a body part');
+alert("Ready to see your Mad Libs?");
+sentence += "beauty in the world - I feel like I can't take it, like my " + bodyPart + " is just going to cave in.</h2>";
+document.write(sentence);
 
